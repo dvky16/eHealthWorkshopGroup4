@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="eHealthWorkshopGroup4.Views.AboutPage"
+             x:Class="eHealthWorkshopGroup4.Views.Profile"
              xmlns:vm="clr-namespace:eHealthWorkshopGroup4.ViewModels"
              Title="{Binding Title}">
     
@@ -47,10 +47,7 @@
                     <Label.FormattedText>
                         <FormattedString>
                             <FormattedString.Spans>
-                                <Span Text="This app is designed to help you train in Taekwondo" />
-                                <Span Text=" " />
-                                <Span Text="We crave your enjoyment" FontAttributes="Bold" />
-                                <Span Text="." />
+                                <Span Text="Your heart rate is" FontAttributes="Italic"/>
                             </FormattedString.Spans>
                         </FormattedString>
                     </Label.FormattedText>

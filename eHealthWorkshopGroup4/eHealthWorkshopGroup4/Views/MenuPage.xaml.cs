@@ -19,7 +19,9 @@ namespace eHealthWorkshopGroup4.Views
             menuItems = new List<HomeMenuItem>
             {
                 new HomeMenuItem {Id = MenuItemType.Browse, Title="Browse" },
-                new HomeMenuItem {Id = MenuItemType.About, Title="About" }
+                new HomeMenuItem {Id = MenuItemType.HomeWorkout, Title="Home Workout" },
+                new HomeMenuItem {Id = MenuItemType.Profile, Title="Profile" },
+                new HomeMenuItem {Id = MenuItemType.About, Title="About" },
             };
 
             ListViewMenu.ItemsSource = menuItems;

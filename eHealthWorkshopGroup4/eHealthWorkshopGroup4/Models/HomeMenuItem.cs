@@ -6,7 +6,9 @@ namespace eHealthWorkshopGroup4.Models
 {
     public enum MenuItemType
     {
+        HomeWorkout,
         Browse,
+        Profile,
         About
     }
     public class HomeMenuItem
