@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <ApplicationIcon>icon (1).ico</ApplicationIcon>
+    <ApplicationIcon>appico.ico</ApplicationIcon>
     <Win32Resource />
   </PropertyGroup>
 

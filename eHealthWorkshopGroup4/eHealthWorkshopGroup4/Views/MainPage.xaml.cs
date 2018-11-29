@@ -7,6 +7,7 @@ using Xamarin.Forms.Xaml;
 
 namespace eHealthWorkshopGroup4.Views
 {
+
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MainPage : MasterDetailPage
     {
