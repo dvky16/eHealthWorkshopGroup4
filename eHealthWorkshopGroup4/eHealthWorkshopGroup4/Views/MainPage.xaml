@@ -2,26 +2,11 @@
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             xmlns:local="clr-namespace:eHealthWorkshopGroup4.Views"
-            x:Class="eHealthWorkshopGroup4.Views.MainTabbed">
+            x:Class="eHealthWorkshopGroup4.Views.MainPage">
     <!--these pages are the pages to be part of the tabbed page-->
     <ContentPage Title="Home" />
-    <x:Arguments>
-        <local:Home/>
-    </x:Arguments>
     <ContentPage Title="Train" />
-    <x:Arguments>
-        <local:Train/>
-    </x:Arguments>
     <ContentPage Title="Profile" />
-    <x:Arguments>
-        <local:Profile/>
-    </x:Arguments>
     <ContentPage Title="Info" />
-    <x:Arguments>
-        <local:Info/>
-    </x:Arguments>
     <ContentPage Title="Messages" />
-    <x:Arguments>
-        <local:Messages/>
-    </x:Arguments>
 </TabbedPage>

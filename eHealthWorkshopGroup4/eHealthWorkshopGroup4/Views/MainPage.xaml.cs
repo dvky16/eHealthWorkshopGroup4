@@ -7,7 +7,7 @@ using Xamarin.Forms.Xaml;
 namespace eHealthWorkshopGroup4.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    class MainPage : TabbedPage
+    partial class MainPage : TabbedPage
     {
         public MainPage()
         {
