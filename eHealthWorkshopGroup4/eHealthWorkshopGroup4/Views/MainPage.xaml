@@ -1,23 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
-            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-            xmlns:views="clr-namespace:eHealthWorkshopGroup4.Views"
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:eHealthWorkshopGroup4.Views"
             x:Class="eHealthWorkshopGroup4.Views.MainPage">
-
-    <MasterDetailPage.Master>
-        <views:MenuPage />
-    </MasterDetailPage.Master>
-
-    <MasterDetailPage.Detail>
-        <NavigationPage>
-            <NavigationPage.Icon>
-                <OnPlatform x:TypeArguments="FileImageSource">
-                    <On Platform="iOS" Value="icon.png"/>
-                </OnPlatform>
-            </NavigationPage.Icon>
-            <x:Arguments>
-                <views:ItemsPage />
-            </x:Arguments>
-        </NavigationPage>
-    </MasterDetailPage.Detail>
-</MasterDetailPage>
+    <!--these pages are the pages to be part of the tabbed page-->
+    <ContentPage Title="Home" />
+    <ContentPage Title="Train" />
+    <ContentPage Title="Profile" />
+    <ContentPage Title="Info" />
+    <ContentPage Title="Messages" />
+</TabbedPage>

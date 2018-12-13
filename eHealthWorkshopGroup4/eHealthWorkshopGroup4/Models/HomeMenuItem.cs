@@ -4,17 +4,19 @@ using System.Text;
 
 namespace eHealthWorkshopGroup4.Models
 {
+    // these describe the down menu.
     public enum MenuItemType
     {
-        HomeWorkout,
-        Browse,
+        Home,
         Profile,
-        About
+        Info,
+        Train,
+        Messages
     }
     public class HomeMenuItem
     {
+        //TODO deal with it
         public MenuItemType Id { get; set; }
-
-        public string Title { get; set; }
+        public String Title { get; set; }
     }
 }

@@ -9,9 +9,9 @@ namespace eHealthWorkshopGroup4.ViewModels
     {
         public AboutViewModel()
         {
-            Title = "About";
+            Title = "About Our App";
 
-            OpenWebCommand = new Command(() => Device.OpenUri(new Uri("https://xamarin.com/platform")));
+            OpenWebCommand = new Command(() => Device.OpenUri(new Uri("https://docs.google.com/document/d/1Iy3nmmb1cG6sRpm18xTsl1cq7OS2PpXScxguADDBSI0/edit?usp=sharing")));
         }
 
         public ICommand OpenWebCommand { get; }
