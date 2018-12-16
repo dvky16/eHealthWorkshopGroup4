@@ -27,10 +27,10 @@ namespace eHealthWorkshopGroup4.Views
                 Text = "push ups",
                 BorderWidth = 1,
                 Font = Font.SystemFontOfSize(NamedSize.Large),
-                HorizontalOptions = LayoutOptions.Center,
-                VerticalOptions = LayuotOptions.CenterAndExpand
+                HorizontalOptions = LayoutOptions.Center/*, TODO fix:
+                VerticalOptions = LayuotOptions.CenterAndExpand*/
             };
-            excerciseButton.Clicked += OnButtonClicked;
+            //TODO fix: excerciseButton.Clicked += OnButtonClicked;
 
             Content = new StackLayout() {
                 Children = {
