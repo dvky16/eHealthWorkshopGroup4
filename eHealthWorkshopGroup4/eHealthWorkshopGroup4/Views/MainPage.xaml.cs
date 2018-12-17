@@ -11,13 +11,8 @@ namespace eHealthWorkshopGroup4.Views
     {
         public MainPage()
         {
-            this.Title = "MyMain";
-            this.Children.Add(new Profile());
-            this.Children.Add(new Home());
-            this.Children.Add(new Messages());
-            this.Children.Add(new Train());
-            this.Children.Add(new Info());
-
+            InitializeComponent();
+            this.Title = "Taekuando It";
         }
     }
 }

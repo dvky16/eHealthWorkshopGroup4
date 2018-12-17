@@ -1,12 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="eHealthWorkshopGroup4.Views.Train">
+             x:Class="eHealthWorkshopGroup4.Views.Train"
+             Title="{Binding Title}">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="I am the train page"
+            <!--should present the HR-->
+            <Label x:Name="HRLabel" 
+                   IsVisible="{Binding isTraining}"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+
+            <Button Clicked="ChangeTrainingStatus"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
