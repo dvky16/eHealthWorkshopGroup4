@@ -12,19 +12,25 @@ namespace eHealthWorkshopGroup4.Views
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class Train : ContentPage
 	{
-        bool isTraining;
+        private bool isTraining;
+        //TODO make enum
+        private String buttonText; 
         //boolean describing the status of the current training
 		public Train ()
 		{
 			InitializeComponent ();
             this.isTraining = false;
+            HRLabel.IsVisible = this.isTraining;
+            WorkoutButton.Text = "Start Workout";
         }
 
         private void ChangeTrainingStatus(object sender, EventArgs e)
         {
-            if (this.isTraining = !this.isTraining)
+            HRLabel.IsVisible = this.isTraining = !this.isTraining;
+            if (this.isTraining)
             {
                 ((Button)sender).Text = "Stop Workout";
+                
                 //TODO treat case of training
             }
             else

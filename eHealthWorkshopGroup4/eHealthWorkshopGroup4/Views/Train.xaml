@@ -6,12 +6,15 @@
     <ContentPage.Content>
         <StackLayout>
             <!--should present the HR-->
-            <Label x:Name="HRLabel" 
+            <Label x:Name="HRLabel"
+                   Text="Working Out ☺"
                    IsVisible="{Binding isTraining}"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
 
-            <Button Clicked="ChangeTrainingStatus"/>
+            <Button x:Name ="WorkoutButton" 
+                    Clicked="ChangeTrainingStatus"
+                    Text="{Binding buttonText}"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
