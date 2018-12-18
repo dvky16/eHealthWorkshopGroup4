@@ -17,7 +17,7 @@
                                     <Label Text="{Binding Title}" />
                                     <Label Text="{Binding Date, StringFormat='{0:d}'}" />
                                 </StackLayout>
-                                <Button Text="Click for more info" HorizontalOptions="Center" VerticalOptions="Center" Clicked="ButtonListener"/>
+                                <Button Text="Click for more info" HorizontalOptions="Center" VerticalOptions="Center"/>
                             </StackLayout>
                         </ViewCell>
                     </DataTemplate>

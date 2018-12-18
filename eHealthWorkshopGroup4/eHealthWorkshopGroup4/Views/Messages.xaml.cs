@@ -27,11 +27,12 @@ namespace eHealthWorkshopGroup4.Views
             
         }
 
-      /*  private async void ButtonListener(Object sender, EventArgs e)
+        /*private async void ButtonHendler(Object sender, EventArgs e)
         {
             await Navigation.PushAsync(new ContentMessagePage());
         }
         */
+        
 
     }
 }

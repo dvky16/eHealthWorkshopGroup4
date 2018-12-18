@@ -143,4 +143,13 @@
       <Name>eHealthWorkshopGroup4</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\KungFuBackGround.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\BruceLeeProfile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\KarateKickDanSproul.png" />
+  </ItemGroup>
 </Project>
