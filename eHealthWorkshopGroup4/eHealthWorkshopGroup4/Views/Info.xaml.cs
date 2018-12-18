@@ -15,6 +15,28 @@ namespace eHealthWorkshopGroup4.Views
 		public Info ()
 		{
 			InitializeComponent ();
+
+            Label header = new Label{
+                Text = "Archive",
+                FontSize = 50,
+                FontAttributes = FontAttributes.Bold,
+                HorizontalOptions = LayoutOptions.Center
+            };
+
+            Button excerciseButton = new Button{
+                Text = "push ups",
+                BorderWidth = 1,
+                Font = Font.SystemFontOfSize(NamedSize.Large),
+                HorizontalOptions = LayoutOptions.Center/*, TODO fix:
+                VerticalOptions = LayuotOptions.CenterAndExpand*/
+            };
+            //TODO fix: excerciseButton.Clicked += OnButtonClicked;
+
+            Content = new StackLayout() {
+                Children = {
+                    header, excerciseButton
+                }
+            };
 		}
 	}
 }

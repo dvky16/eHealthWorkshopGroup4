@@ -4,9 +4,30 @@
             xmlns:local="clr-namespace:eHealthWorkshopGroup4.Views"
             x:Class="eHealthWorkshopGroup4.Views.MainPage">
     <!--these pages are the pages to be part of the tabbed page-->
-    <ContentPage Title="Home" />
-    <ContentPage Title="Train" />
-    <ContentPage Title="Profile" />
-    <ContentPage Title="Info" />
-    <ContentPage Title="Messages" />
+    <!--TODO add icon using Icon=-->
+    <NavigationPage Title="Home">
+        <x:Arguments>
+            <local:Home/>
+        </x:Arguments>
+    </NavigationPage>
+    <NavigationPage Title="Train">
+        <x:Arguments>
+            <local:Train/>
+        </x:Arguments>
+    </NavigationPage>
+    <NavigationPage Title="Profile">
+        <x:Arguments>
+            <local:Profile/>
+        </x:Arguments>
+    </NavigationPage>
+    <NavigationPage Title="Info">
+        <x:Arguments>
+            <local:Info/>
+        </x:Arguments>
+    </NavigationPage>
+    <NavigationPage Title="Messages">
+        <x:Arguments>
+            <local:Messages/>
+        </x:Arguments>
+    </NavigationPage>
 </TabbedPage>

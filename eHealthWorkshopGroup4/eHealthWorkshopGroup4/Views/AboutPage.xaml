@@ -8,7 +8,7 @@
     <ContentPage.BindingContext>
         <vm:AboutViewModel />
     </ContentPage.BindingContext>
-    
+
     <ContentPage.Resources>
         <ResourceDictionary>
             <!--Page Level Resources: Compatible with Xamarin Live Player -->
