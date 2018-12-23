@@ -133,8 +133,14 @@
     <Reference Include="System.Net.Http" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="3.3.0.967583" />
-    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="Xam.Plugin.Media">
+      <Version>4.0.1.5</Version>
+    </PackageReference>
+    <PackageReference Include="Xam.Plugins.Forms.ImageCircle">
+      <Version>3.0.0.5</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
@@ -151,5 +157,11 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\KarateKickDanSproul.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\BruceLeeProfile1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\CameraIcon.png" />
   </ItemGroup>
 </Project>

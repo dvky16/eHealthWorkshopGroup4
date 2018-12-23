@@ -1,5 +1,4 @@
 ﻿using System;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -19,5 +18,13 @@ namespace eHealthWorkshopGroup4.Views
             CoachName.Text = "Ip Man";
             HeartRateData.Text = "70 BPM";
         }
+
+        void takePhoto(object sender, EventArgs e)
+        {
+            
+        }
+        
+
+
     }
 }
