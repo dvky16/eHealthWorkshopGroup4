@@ -7,6 +7,24 @@
             <Label Text="I am Message Page!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+            <ListView x:Name="CoachMessages">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Padding="0, 5" Orientation="Horizontal">
+                                <StackLayout VerticalOptions="Center"
+                                             Spacing="0">
+                                    <Label Text="{Binding Title}" />
+                                    <Label Text="{Binding Date, StringFormat='{0:d}'}" />
+                                </StackLayout>
+                                <Button Text="Click for more info" HorizontalOptions="Center" VerticalOptions="Center"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+                
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
