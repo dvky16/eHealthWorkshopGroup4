@@ -6,7 +6,7 @@ _Taekwondo It_ helps Taekwondo students practice at home, monitor their fitness 
 ## Our website
 https://kydaveloper.wixsite.com/TaekwondoIt
 ## Video
-link
+https://www.powtoon.com/c/cg8p4K4VRCX/1/m
 
 ## Authors
 * **Bar Rousso**
